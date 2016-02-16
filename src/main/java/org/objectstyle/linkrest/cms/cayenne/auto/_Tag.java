@@ -14,11 +14,6 @@ public abstract class _Tag extends CayenneDataObject {
 
     private static final long serialVersionUID = 1L; 
 
-    @Deprecated
-    public static final String NAME_PROPERTY = "name";
-    @Deprecated
-    public static final String ARTICLE_PROPERTY = "article";
-
     public static final String ID_PK_COLUMN = "id";
 
     public static final Property<String> NAME = new Property<String>("name");

@@ -18,17 +18,6 @@ public abstract class _Article extends CayenneDataObject {
 
     private static final long serialVersionUID = 1L; 
 
-    @Deprecated
-    public static final String BODY_PROPERTY = "body";
-    @Deprecated
-    public static final String PUBLISHED_ON_PROPERTY = "publishedOn";
-    @Deprecated
-    public static final String TITLE_PROPERTY = "title";
-    @Deprecated
-    public static final String DOMAIN_PROPERTY = "domain";
-    @Deprecated
-    public static final String TAGS_PROPERTY = "tags";
-
     public static final String ID_PK_COLUMN = "id";
 
     public static final Property<String> BODY = new Property<String>("body");

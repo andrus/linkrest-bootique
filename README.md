@@ -1,18 +1,18 @@
 # link-rest-dropwizard
 
-A simple example of running a [LinkRest](http://nhl.github.io/link-rest/) app on [Dropwizard](http://www.dropwizard.io). Prerequisites:
+A simple example of running a [LinkRest](http://nhl.github.io/link-rest/) app on [Bootique](http://bootique.io). Prerequisites:
 
 * Java 1.8 or newer.
 * Apache Maven.
 
 Here is how to run it:
 
-	git clone https://github.com/andrus/link-rest-dropwizard.git
-	cd link-rest-dropwizard
+	git clone https://github.com/andrus/link-rest-bootique.git
+	cd link-rest-bootique
 	mvn package
-	java -jar target/link-rest-dropwizard-1.0-SNAPSHOT.jar server
+	java -jar target/link-rest-bootique-1.0-SNAPSHOT.jar --server --config=run.yml
 
-That's it, no need for installing Tomcat, doing deployment, etc. That's the beauty of DropWizard. LinkRest bootstrap part happens in the [DWApplication class](https://github.com/andrus/link-rest-dropwizard/blob/master/src/main/java/org/objectstyle/linkrest/cms/DWApplication.java).
+That's it, no need for installing Tomcat, doing deployment, etc. That's the beauty of Bootique. LinkRest bootstrap part happens in the [BQApplication class](https://github.com/andrus/link-rest-bootique/blob/master/src/main/java/org/objectstyle/linkrest/cms/BQApplication.java).
 
 Resources:
 
