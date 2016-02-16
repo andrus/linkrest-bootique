@@ -7,12 +7,12 @@ A simple example of running a [LinkRest](http://nhl.github.io/link-rest/) app on
 
 Here is how to run it:
 
-	git clone https://github.com/andrus/link-rest-bootique.git
-	cd link-rest-bootique
+	git clone https://github.com/andrus/linkrest-bootique.git
+	cd linkrest-bootique
 	mvn package
-	java -jar target/link-rest-bootique-1.0-SNAPSHOT.jar --server --config=run.yml
+	java -jar target/linkrest-bootique-1.0-SNAPSHOT.jar --server --config=run.yml
 
-That's it, no need for installing Tomcat, doing deployment, etc. That's the beauty of Bootique. LinkRest bootstrap part happens in the [BQApplication class](https://github.com/andrus/link-rest-bootique/blob/master/src/main/java/org/objectstyle/linkrest/cms/BQApplication.java).
+That's it, no need for installing Tomcat, doing deployment, etc. That's the beauty of Bootique. LinkRest bootstrap part happens in the [BQApplication class](https://github.com/andrus/linkrest-bootique/blob/master/src/main/java/org/objectstyle/linkrest/cms/BQApplication.java).
 
 Resources:
 
