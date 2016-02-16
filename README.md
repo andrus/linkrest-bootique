@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/andrus/linkrest-bootique.svg)](https://travis-ci.org/andrus/linkrest-bootique)
+
+
 # linkrest-bootique
 
 A simple example of running a [LinkRest](http://nhl.github.io/link-rest/) app on [Bootique](http://bootique.io). Prerequisites:
